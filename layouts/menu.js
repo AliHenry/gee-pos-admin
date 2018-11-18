@@ -37,6 +37,26 @@ export default {
         attributes: {}
       }
     },
+      {
+          name: 'POS',
+          url: '/pos',
+          icon: 'icon-puzzle'
+      },
+      {
+          name: 'Category',
+          url: '/category',
+          icon: 'icon-puzzle'
+      },
+      {
+          name: 'Product',
+          url: '/product',
+          icon: 'icon-puzzle'
+      },
+      {
+          name: 'Transaction',
+          url: '/transaction',
+          icon: 'icon-puzzle'
+      },
     {
       name: 'Base',
       url: '/base',

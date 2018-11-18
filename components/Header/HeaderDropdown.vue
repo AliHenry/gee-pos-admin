@@ -20,20 +20,23 @@
 </template>
 
 <script>
+  import {mapActions} from 'vuex'
   export default {
     name: 'header-dropdown',
     data: () => {
       return { itemsCount: 42 }
     },
     methods: {
+        ...mapActions('authen', {
+            logoutAction: 'logout'
+        }),
       async logout() {
-        try {
-          this.$store.dispatch('logout').then(() => {
-            this.$router.push('/login')
-          })
-        } catch (e) {
-          this.formError = e.message
-        }
+            let vm = this;
+          vm.logoutAction().then(res => {
+              this.$router.push('/login')
+          }).catch(err => {
+              this.formError = err.data
+          });
       }
     }
   }

@@ -9,7 +9,9 @@
     </button>
     <b-navbar-nav class="d-md-down-none">
       <b-nav-item class="px-3">Dashboard</b-nav-item>
-      <b-nav-item class="px-3">Users</b-nav-item>
+      <b-nav-item class="px-3" to="/user">
+        Users
+      </b-nav-item>
       <b-nav-item class="px-3">Settings</b-nav-item>
     </b-navbar-nav>
     <b-navbar-nav class="ml-auto">

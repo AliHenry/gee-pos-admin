@@ -13,15 +13,27 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/auth": "^4.5.1",
+    "@nuxtjs/axios": "^5.3.1",
     "bootstrap-vue": "^2.0.0-rc.1",
     "chart.js": "^2.7.1",
+    "date-fns": "^1.29.0",
     "flag-icon-css": "^2.9.0",
     "font-awesome": "^4.7.0",
+    "mini-toastr": "^0.8.1",
+    "moment": "^2.22.2",
     "node-sass": "^4.7.2",
     "nuxt": "^1.0.0",
     "sass-loader": "^6.0.6",
     "simple-line-icons": "^2.4.1",
-    "vue-chartjs": "^3.1.1"
+    "vue-airbnb-style-datepicker": "^2.0.1",
+    "vue-browser-geolocation": "^1.5.0",
+    "vue-chartjs": "^3.1.1",
+    "vue-currency-filter": "^2.3.0",
+    "vue-moment": "^4.0.0",
+    "vue-notifications": "^0.9.0",
+    "vue-resource": "^1.5.1",
+    "vuex-persistedstate": "^2.5.4"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
