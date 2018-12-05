@@ -31,7 +31,7 @@
                 <small v-if="error.password" class="form-text text-danger">{{error.password[0]}}</small>
               </b-input-group>
 
-              <b-input-group class="mb-4">
+              <b-input-group class="mb-2">
                 <b-input-group-prepend>
                   <b-input-group-text><i class="icon-lock"></i></b-input-group-text>
                 </b-input-group-prepend>
@@ -39,17 +39,11 @@
               </b-input-group>
 
               <b-button variant="success" @click="register" block>Create Account</b-button>
+
+              <b-input-group class="mb-4">
+                <a href="/login" class="mt-5">Login</a>
+              </b-input-group>
             </b-card-body>
-            <b-card-footer class="p-4">
-              <b-row>
-                <b-col cols="6">
-                  <b-button block class="btn btn-facebook"><span>facebook</span></b-button>
-                </b-col>
-                <b-col cols="6">
-                  <b-button block class="btn btn-twitter" type="button"><span>twitter</span></b-button>
-                </b-col>
-              </b-row>
-            </b-card-footer>
           </b-card>
         </b-col>
       </b-row>

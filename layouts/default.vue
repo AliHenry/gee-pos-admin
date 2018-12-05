@@ -9,7 +9,6 @@
           <nuxt />
         </div>
       </main>
-      <AppAside/>
     </div>
     <AppFooter/>
   </div>
